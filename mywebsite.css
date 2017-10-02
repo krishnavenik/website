@@ -1,0 +1,128 @@
+body{
+    border: solid;
+    background-image: url("background3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    padding:50px;
+}
+.maindiv{
+    
+    font-family: "arial", helvetica, sans-serif;
+}
+
+.heading{
+    background-color: gray;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
+    color: blue;
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 28;
+    font-style: bold;
+    font-style: italic;
+   
+}
+.bigbox{
+    width:50%;
+    opacity: 0.6;
+    color: white; 
+}
+#image{
+    
+    margin-right: 200px;
+	position:absolute;
+	right:50px;
+	border-radius: 50%;
+	width:200px;
+	height:200px;
+}
+.video{
+    width: 300px;
+    height: 200px;
+    padding-top: 40px;
+    margin-top: 200px;
+    margin-right: 250px;
+    text-align: center;
+    float: right;
+}
+    
+ul {
+    color: rgb(0, 0, 255);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold ;
+     font-size: 17px;  
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+    float: center;
+    }
+.footer{
+	color: lightgray;
+    margin-top: 200px;
+    padding-top: 20px;
+    padding-left: 500px;
+}
+.container
+{
+    color: white;
+    opacity: 0.6;
+}
+.social
+{
+    margin-top: 50px;
+padding-left: 40px;
+font-size: 18;
+float: center; 
+}
+.box{
+    color: white;
+    opacity: 0.6;
+    float: center;
+   
+}
+#message{
+    background-color: lightgray;
+}
+#email{
+    background-color: lightgray;
+}
+#name{
+    background-color: lightgrey;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+    }
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    }
+
+input[type=submit]:hover {
+    background-color: white;
+
+    }
+	

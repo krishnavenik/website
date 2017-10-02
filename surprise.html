@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<link type="text/css" rel="stylesheet" href="mywebsite.css">
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <title> dice roller</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script type="text/javascript" src="surprise.js"></script>
+		</head>
+		<style>
+div.dice{
+	float:center;
+	width:32px;
+	background:black;
+	border:#999 1px solid;
+	padding:50px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+</style>
+    <body>
+	<div class= "heading"> KrishnaVeni Karri</div>
+        <div> 
+            <nav>
+                <ul>
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="surprise.html">Surprise</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+	<div id ="surp" class = "container fluid">
+<div id="die1" class="dice">0</div>
+<div id="die2" class="dice">0</div>
+<button onclick="rollDice()">Roll Dice</button>
+<h2 id="status" style="clear:left;"></h2>
+	</div>
+    </body>
+	<div class="footer">   
+                        Designed by KrishnaVeni Karri
+                </div>
+</html>
+		
